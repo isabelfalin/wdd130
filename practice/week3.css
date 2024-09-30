@@ -1,0 +1,13 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.pink-background{
+    background-color: hotpink;
+}
+#my-name{
+    color: white;
+    background-color: rgb(88, 113, 214);
+    padding: 10px;
+}
