@@ -6,6 +6,9 @@ a {
 .pink-background{
     background-color: hotpink;
 }
+p{
+    background-color: green;
+}
 #my-name{
     color: white;
     background-color: rgb(88, 113, 214);
