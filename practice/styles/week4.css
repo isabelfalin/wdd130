@@ -1,3 +1,7 @@
+body{
+    font-size: 20px;
+}
+
 img{
         width: 80%;
         display: block;
@@ -16,15 +20,27 @@ nav, footer{
     padding: 10px;
 }
 main p {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     text-align: centers;
+    padding: 10px;
 }
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    color: darkred;
 }
 a:hover {
     background-color: white;
     color: steelblue;
+}
+#green{
+    background-color: white;
+}
+p{
+    color: black;
+    text-align: center;
+}
+#bigger {
+font-size: 1em;
 }
