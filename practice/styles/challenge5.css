@@ -1,0 +1,20 @@
+.circles{
+    width: 250px;
+    margin: 50px;
+    border: 12px solid #444444;
+    border-radius: 150px;
+}
+.bubble{
+ width: 100%;
+}
+body{
+    margin: 0;
+}
+main{
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+header{
+    height: 500px;
+}
