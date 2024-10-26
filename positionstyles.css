@@ -70,7 +70,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
- 
+  grid-column-gap: 100px;
 }
 .red3 {
   width: 100%; 
@@ -82,13 +82,11 @@
   width: 500px; 
   height: 225px; 
   background-color: green;
-  margin-right: 7%;
 } 
 .yellow3 {
   width: 500px; 
   height: 225px; 
   background-color: gold; 
-  margin-left: 7%;
 } 
 .blue3 {
   width: 100%; 
