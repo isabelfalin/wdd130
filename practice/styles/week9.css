@@ -1,0 +1,9 @@
+div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.blog-stats{
+    background-color: steelblue;
+    width: 100%;
+}
