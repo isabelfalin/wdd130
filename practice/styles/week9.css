@@ -1,9 +1,53 @@
-div{
+.blog-post{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
 }
 .blog-stats{
+    display: grid;
     background-color: steelblue;
-    width: 100%;
+    text-align: center;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+body{
+    background-color: black;
+}
+.blog-post img{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.blog-post p{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+    color: steelblue;
+    margin: 16px 0 0 0;
+}
+.blog-post h1{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.blog-post .blog-text {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align: center;
+    color: grey;
+    margin: 16px 0 16px 0;
+
+}
+.blog-stats p{
+    color: white;
+    margin: 0 ;
+    font-size: 20px;
+}
+.blog-stats div{
+    padding: 20px 0 20px 0;
 }
