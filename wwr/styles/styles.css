@@ -281,3 +281,75 @@ footer .social img{
     }
 }
 /* CSS For Rivers Page */
+.rivers-page {
+
+}
+#river-hero-box{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+#river-hero-box h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    margin-top: -70px;
+}
+#river-hero-box p{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    color: white;
+    margin-top: 170px;
+    padding: 0 150px 0 150px;
+    text-align: center;
+}
+#river-hero-box img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 0;
+    width: 100%;
+}
+
+
+.rivers-page h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rivers-page section{
+    display: grid;
+    grid-template-columns: 66% 33%;
+    grid-template-rows: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 60px;
+    padding: 0 100px 0 0;
+}
+.rivers-page section img{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    min-height: 400px;
+    min-width: 400px;
+    border-width: 25px;
+    border: 10px solid #4392F1;
+    
+}
+.rivers-page section .section-text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: black;
+    padding: 15px 15px 15px 15px;
+}
+.rivers-page h2{
+    color: #FC8701;
+}
+.rivers-page section p{
+    line-height: 1.2;
+}
