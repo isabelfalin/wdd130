@@ -81,7 +81,6 @@ header h4{
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: -1;
-    margin: ;
 }
 
 .msg .container{
