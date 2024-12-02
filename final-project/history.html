@@ -4,35 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowboarding Website</title>
+    <link rel="stylesheet" href="styles/history.css">
+    <script src="https://kit.fontawesome.com/d1276cdc53.js" crossorigin="anonymous"></script>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
 <body>
     <header> 
-        <a id="logo_link" href="home.html">
+        <a id="logo-link" href="home.html">
             <img class="logo" src="images/thepeakslogo.png" alt="The Peaks Logo"> 
         </a>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="history.html">History</a>
-            <a href="destinations.html">Destinations</a>
-        </nav>
-    </header>
-    <main>
-        <section id="hero-msg">
-            <h1 class="history-title">Snowboarding Throughout History</h1>
-            <h4>Snowboarding's origin is an exciting and interesting history. 
-                This page will recount it's history and how it has evolved from a niche 
-                winter sport into a global phenomenon.</h4>
-        </section>
-        <div id="hero">
-            <div id="hero-box"> 
-                <img id="hero-img" src="images/history-hero.jpg" alt="old snowboards">
-            </div>
 
-        <section id="early-beginnings-title">
-            
+        <nav>
+            <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="history.html"><i class="fa-solid fa-timeline"></i> History</a>
+            <a href="destinations.html"><i class="fa-solid fa-mountain"></i> Destinations</a>
+        </nav>
+
+        <h1 class="hero-title">Snowboarding Throughout History</h1>
+        <h4>Snowboarding's origin is an exciting and interesting history. 
+            This page will recount it's history and how it has evolved from a niche 
+            winter sport into a global phenomenon.</h4>
+        <img id="hero-img" src="images/history-hero.jpg" alt="old snowboards">
+    </header
+
+    <main>
+     <section id="early-beginnings-title">
             <h2>Early Beginnings:</h2>
             <!-- The 'ancient snow rides' bit will be in bold -->
             <h4>Ancient Snow Rides: The concept of sliding on snow can be traced back thousands of years. Cultures in regions with heavy snowfall, such as the Inuit and the people of Scandinavia, used sled-like devices to travel across snow-covered landscapes. 
@@ -46,6 +44,7 @@
                 This marked the first real precursor to modern snowboarding.</h4>
                 <img id="early-beginnings-img" src="images/13510788_10154102551830932_360130090754735512_n.jpg" alt="Snurfer Photo">
         </section>
+
         <section id="birth-modern-snowboarding-title">
             <!-- The 'year' for each one will either be in bold or a different color, as directed by siteplan -->
             <h2>The Birth of Modern Snowboarding (1960s-1970s): 1960s:</h2>
@@ -59,6 +58,7 @@
                 like adding bindings to the board, made the sport more accessible and 
                 paved the way for it to evolve.</h4>
         </section>
+
         <section id="the-rise-snowboarding">
             <h2>The Rise of Snowboarding (1980s-1990s):</h2>
             <h4>1980s: Snowboarding began gaining popularity in the 1980s, 
@@ -76,6 +76,7 @@
                 entering the competition.</h4>
                 <img id="rise-snowboarding-img" src="images/r2tsxtz26uoxvgwxypnd.avif" alt="nagano olympic games image">
         </section>
+
         <section id="snowboarding-modern-era">
             <h2>Snowboarding in the Modern Era (2000s-Present):</h2>
             <h4>X Games & Popular Culture: The X Games became a significant platform for 
@@ -90,14 +91,15 @@
                 the Winter X Games, Winter Olympics, and in a thriving backcountry community.</h4>
                 <img src="images/olympics-beijing-2022.jpg" alt="olympics in Beijing">
         </section>    
-</main>
+    </main>
 
 <footer>
-    <p>The Peaks &copy; 2024 - Isabel Falin</p>
-    <p><a href="site-plan.html">Site Plan</a></p>
-    <p><a href="home.html">Home</a></p>
     <img src="images/thepeakslogo.png" alt="The Peaks Logo">
-    
+    <div id="footer-navigation">
+        <p>The Peaks &copy; 2024 - Isabel Falin</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="home.html">Home</a></p>
+    </div>
   </footer>
 </body>
 </html>
