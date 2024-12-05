@@ -84,8 +84,21 @@ h4{
 }
 
 #early-beginnings-img{
-   
-   margin: 20px 150px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rise-snowboarding-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#snowboarding-modern-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
