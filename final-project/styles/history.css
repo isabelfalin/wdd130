@@ -33,6 +33,9 @@ header .logo{
 
 }
 
+.little-blue-highlight{
+    color: #2A73C7;
+}
 nav a{
     font-size: 30px;
     font-weight: 600;
