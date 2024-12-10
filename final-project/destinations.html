@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowboarding Website</title>
-</head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    <script src="https://kit.fontawesome.com/d1276cdc53.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+    <link rel="stylesheet" href="styles/destinations.css">
+</head>
+
 <body>
     <header> 
         <a id="logo_link" href="home.html">
             <img class="logo" src="images/thepeakslogo.png" alt="The Peaks Logo"> 
         </a>
         <nav>
-            <a href="home.html">Home</a>
-            <a href="history.html">History</a>
-            <a href="destinations.html">Destinations</a>
+            <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="history.html"><i class="fa-solid fa-timeline"></i> History</a>
+            <a href="destinations.html"><i class="fa-solid fa-mountain"></i> Destinations</a>
+    
         </nav>
     </header>
 <main>
@@ -30,11 +34,11 @@
     <div id="carousel">
         <!--All of these images will be apart of a carousel, and 
         there will be little buttons for you to scroll through carousel-->
-        <img src="images/destinations-1.webp" alt="destinaion 1">
-        <img src="images/destinations-2.jpg" alt="destination 2">
-        <img src="images/destinations-3.avif" alt="destination 3">
-        <img src="images/destinations-4.jpg" alt="destination 4">
-        <img src="images/destinations-5.jpg" alt="destination 5">
+        <img src="images/carousel-1.jpeg" alt="destinaion 1">
+        <img src="images/carousel-2.jpeg" alt="destination 2">
+        <img src="images/carousel-3.jpeg" alt="destination 3">
+        <img src="images/carousel-4.jpeg" alt="destination 4">
+        <img src="images/carousel-5.jpeg" alt="destination 5">
     </div>
 
     <h1 id="europe-title">Destinations In Europe</h1>
@@ -59,14 +63,14 @@
             Chamonix is a truly unique resort. Nestled beneath the highest mountains in the Alps, yet just one hour from Geneva, it offers some of the toughest, wildest and most exhilarating snowboarding anywhere in the world.</h4>
         <h4>Snow cover can be patchy lower down in Chamonix, but most of your time will be spent at high altitude, where snow conditions are generally reliable.
             With its north-facing slopes reaching almost 3300m, Les Grand Montets has a particularly good snow record and is open until early May. This end of the valley is also a known ‘snow-pocket’, with nearby Le Tour claiming to be the snowiest village in France.</h4>
-            <img src="images/chamonix-france.jpg" alt="Chamonix France">
+            <img id="chamonix-france-img" src="images/chamonix-france.jpg" alt="Chamonix France">
     </section>
 
     <section id="st-anton">
         <h2>St. Anton (Austria): </h2>
         <h4>Famous for its après-ski and vibrant village life. Special Features: Deep powder snow, off-piste, and lots of backcountry options.</h4>
         <h4>The internationally renowned Ski Arlberg extern area is a true paradise for snowboarders with its diverse slopes and numerous freeride opportunities. A total of 85 lifts allow easy access to the ski area, many of them gondolas and chairlifts, so getting up the mountain is much easier and more pleasant for snowboarders than with drag lifts.</h4>
-        <img src="images/st-anton.webp" alt="st anton">
+        <img id="st-anton-img" src="images/st-anton.webp" alt="st anton">
     </section>
 
     <h1 id="north-america-title">Destinations In North America</h1>
@@ -74,35 +78,34 @@
     <section id="lake-tahoe">
         <h2>Lake Tahoe (California/Nevada, USA):</h2>
         <h4>Lake Tahoe offers a mix of steep terrain, tree runs, and wide-open bowls. Special Features: Several resorts with diverse terrain options, perfect for long runs and freestyle enthusiasts.</h4>
-        <h4>Lake Tahoe Ski Resorts on the South Shore are an unforgettable experience. With jaw-dropping lake views, skiable terrain for all skill levels and plenty of access to nearby lodging and shopping,</h4>
-        <h4>Lake Tahoe actually includes multiple resorts, it has three different ones on its south side</h4>
-        <h4>Heavenly Moutain: Featuring 30 ski lifts that access 34 miles of wide-open groomers, 1,600-foot double black diamond plungers, and all the tree skiing you could ever ask for, Heavenly Mountain Resort has terrain to keep skiers and snowboarders of all skill levels shredding from dawn to dusk. </h4>
-        <h4>Sierra-at-tahoe: In between the storms, you can spend your day lapping the terrain parks, filled with some of the most perfectly sculpted jumps in the region. In addition, they have the only Superpipe on the South Shore. Sierra-at-Tahoe has long been known as a gathering place for families of all ages to come together and play.</h4>
-        <h4>Kirkwood Mountain:  Expect steep terrain, big bowls, chutes galore and lots of snow. With a base elevation of 7,800 feet, Kirkwood receives more snowfall than any other Lake Tahoe ski resort. With terrain to satisfy skiers and snowboarders of all skill levels, Kirkwood also has some of the most advanced and varied skiing terrains in the Tahoe basin.</h4>
-        <img src="images/lake-tahoe.jpg" alt="lake tahoe">
+        <h4>Lake Tahoe Ski Resorts on the South Shore are an unforgettable experience. With jaw-dropping lake views, skiable terrain for all skill levels and plenty of access to nearby lodging and shopping. Lake Tahoe actually includes multiple resorts, it has three different ones on its south side</h4>
+        <h4><span class="little-blue-highlight">Heavenly Moutain:</span> Featuring 30 ski lifts that access 34 miles of wide-open groomers, 1,600-foot double black diamond plungers, and all the tree skiing you could ever ask for, Heavenly Mountain Resort has terrain to keep skiers and snowboarders of all skill levels shredding from dawn to dusk. </h4>
+        <h4><span class="little-blue-highlight">Sierra-at-tahoe:</span> In between the storms, you can spend your day lapping the terrain parks, filled with some of the most perfectly sculpted jumps in the region. In addition, they have the only Superpipe on the South Shore. Sierra-at-Tahoe has long been known as a gathering place for families of all ages to come together and play.</h4>
+        <h4><span class="little-blue-highlight">Kirkwood Mountain:</span> Expect steep terrain, big bowls, chutes galore and lots of snow. With a base elevation of 7,800 feet, Kirkwood receives more snowfall than any other Lake Tahoe ski resort. With terrain to satisfy skiers and snowboarders of all skill levels, Kirkwood also has some of the most advanced and varied skiing terrains in the Tahoe basin.</h4>
+        <img id="lake-tahoe-img" src="images/lake-tahoe.jpg" alt="lake tahoe">
     </section>
 
-    <section id="park-citt">
+    <section id="park-city">
         <h2>Park City (Utah, USA):</h2>
         <h4>This resort is spread across 7300 acres, 11 square miles, 41 chairlifts, and 2 villages. There is something for everyone at Park City Mountain. Endless groomers, pow stashes, and glades call all those who love to explore new terrain.</h4>
         <h4>And with iconic scenery including ski runs right into Historic Old Town and the 10,000 foot Jupiter Peak, you'll never not have a chance to make a memory. Freestyle skiers and boarders are welcome too with 7 terrain parks spread out across the mountain and I Ride Park City boosting the excitement.</h4>
-        <img src="images/park-city.jpg" alt="Park City">
+        <img id="park-city-img" src="images/park-city.jpg" alt="Park City">
     </section>
 
     <section id="whistler-blackcomb">
         <h2>Whistler Blackcomb (Canada): </h2>
         <h4>Whistler and Blackcomb are two side-by-side mountains, offering over 200 marked runs, 8,171 acres of terrain, 16 alpine bowls and 3 glaciers combined, receiving 1,036 centimetres (408 inches) of snow on average annually</h4>
         <h4>We are home to one of the longest ski seasons in North America, offering world-class terrain for all levels of snowboarders. Special Features: Huge backcountry areas, multiple terrain parks, and stunning mountain views.</h4>
-        <img src="images/whistler-blackcomb.jpg" alt="Whistler Blackcomb">
+        <img id="whistler-blackcomb-img" src="images/whistler-blackcomb.jpg" alt="Whistler Blackcomb">
     </section>
 
-
     <footer>
-        <p>The Peaks &copy; 2024 - Isabel Falin</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="home.html">Home</a></p>
         <img src="images/thepeakslogo.png" alt="The Peaks Logo">
-        
+        <div id="footer-navigation">
+            <p>The Peaks &copy; 2024 - Isabel Falin</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="home.html">Home</a></p>
+        </div>
       </footer>
     </body>
     </html>
