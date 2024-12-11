@@ -91,12 +91,14 @@ h4{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #2A73C7 5px solid;
 }
 
 #chamonix-france-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #2A73C7 5px solid;
 }
 
 #st-anton-img{
@@ -104,12 +106,14 @@ h4{
     margin-left: auto;
     margin-right: auto;
     width: 700px;
+    border: #2A73C7 5px solid;
 }
 
 #lake-tahoe-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #2A73C7 5px solid;
     width: 700px
 }
 
@@ -117,14 +121,18 @@ h4{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #2A73C7 5px solid;
     width: 700px
+ 
 }
 
 #whistler-blackcomb-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #2A73C7 5px solid;
     width: 700px
+
 }
 
 footer{
