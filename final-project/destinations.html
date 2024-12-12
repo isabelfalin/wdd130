@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowboarding Website</title>
+    <!-- CSS for carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://kit.fontawesome.com/d1276cdc53.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -20,26 +22,25 @@
             <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
             <a href="history.html"><i class="fa-solid fa-timeline"></i> History</a>
             <a href="destinations.html"><i class="fa-solid fa-mountain"></i> Destinations</a>
-    
         </nav>
+        <section id="hero-msg">
+            <h1 class="destinations-title">Snowboarding Destintions Around The World</h1>
+            <h4>Whether you're looking for powder-filled slopes, epic freestyle parks, 
+                or serene backcountry trails, the world is full of amazing places to snowboard. 
+                In this guide, we highlight some of the best snowboarding destinations for 
+                every skill level.</h4>
+        </section>
+    
+        <div class="main-carousel">
+            <img class="carousel-cell" src="images/carousel-1.jpeg" alt="destinaion 1">
+            <img class="carousel-cell" src="images/carousel-2.jpeg" alt="destination 2">
+            <img class="carousel-cell" src="images/carousel-3.jpeg" alt="destination 3">
+            <img class="carousel-cell" src="images/carousel-4.jpeg" alt="destination 4">
+            <img class="carousel-cell" src="images/carousel-5.jpeg" alt="destination 5">
+        </div>
     </header>
 <main>
-    <section id="hero-msg">
-        <h1 class="destinations-title">Snowboarding Destintions Around The World</h1>
-        <h4>Whether you're looking for powder-filled slopes, epic freestyle parks, 
-            or serene backcountry trails, the world is full of amazing places to snowboard. 
-            In this guide, we highlight some of the best snowboarding destinations for 
-            every skill level.</h4>
-    </section>
-    <div id="carousel">
-        <!--All of these images will be apart of a carousel, and 
-        there will be little buttons for you to scroll through carousel-->
-        <img src="images/carousel-1.jpeg" alt="destinaion 1">
-        <img src="images/carousel-2.jpeg" alt="destination 2">
-        <img src="images/carousel-3.jpeg" alt="destination 3">
-        <img src="images/carousel-4.jpeg" alt="destination 4">
-        <img src="images/carousel-5.jpeg" alt="destination 5">
-    </div>
+    
 
     <h1 id="europe-title">Destinations In Europe</h1>
 
@@ -107,5 +108,16 @@
             <p><a href="home.html">Home</a></p>
         </div>
       </footer>
+        <!-- JavaScript for carousel -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+        <script>
+            var flkty = new Flickity( '.main-carousel', {
+                // options
+                draggable: false, 
+                wrapAround: true 
+
+             });
+        </script>
     </body>
     </html>
